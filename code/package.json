@@ -5,7 +5,8 @@
   "main": "local.js",
   "scripts": {
     "test": "test",
-    "start": "node local.js"
+    "start": "node local.js",
+    "coverage": "nyc --reporter=cobertura --reporter=text npm test"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
